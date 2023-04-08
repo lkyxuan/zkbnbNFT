@@ -40,7 +40,7 @@ export const getStaticProps = async () => {
       props: {
         props
       },
-      revalidate: 3600
+      revalidate: 600
     };
   } catch (err) {
     console.error('page error', err)
