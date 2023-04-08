@@ -60,7 +60,7 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>Jack&apos;s zkBNB NFT</h1>
+        <h1>Jack&apos;s zkBNB NFT showcase</h1>
         <NFTGallery {...props} />
       </main>
     </>
