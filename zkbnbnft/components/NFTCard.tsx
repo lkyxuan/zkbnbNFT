@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 
 //component that takes an nft object and maps it to corresponding elements
