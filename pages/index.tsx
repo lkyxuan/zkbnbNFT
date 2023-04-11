@@ -11,7 +11,7 @@ const client = new Client('https://api-testnet.zkbnbchain.org')
 
 async function fetchNFT() {
   // first get the account index by address
-  const acct_res = await client.getAccountByL1Address("0x4b0469Dc710690403984369dA374B439fa215378")
+  const acct_res = await client.getAccountByL1Address("0x339dD90e14Ec35D2F74Ffea7495c2FB0150AF2Ba")
 
   // then get the NFTs by account index
   const index = acct_res.index
